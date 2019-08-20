@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.stoper {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.start,
+.stop,
+.reset {
+  color: white;
+  padding: 5px 10px;
+}
+
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: red;
+}
+
+.reset {
+  background-color: grey;
+}
